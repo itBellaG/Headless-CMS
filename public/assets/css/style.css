@@ -2546,8 +2546,15 @@ main .container{
 
 
 /* tablet */
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 992px) {
+    .unresolved-tickets2 {
+        font-size: unset;
+    }
+    .create-new-ticket-example {
+        right: 114px;
+        left: 68px;
+        top: calc(50% - 18px);
+    }
 }
 
 
