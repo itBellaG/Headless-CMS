@@ -1872,7 +1872,68 @@ main .btn-send:hover {
 
 
 
+.card2 {
+	padding: 15px;
+	/* height: 10vh; */
+}
 
+.info-data .card2 {
+	padding: 40px;
+	border-radius: 0px;
+	background: var(--light);
+	box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+	/* transition: all .2s ease-in-out; */
+}
+.info-data .card2:hover,
+.card2 .head h2:hover,
+.card2 .head .icon:hover,
+.card2 .head .icon.down:hover {
+	/* background: var(--blue); */
+	/* transition: all .2s ease-in-out; */
+	/* color: var(--light); */
+}
+.card2 .head {
+	display: flex;
+	justify-content:center;
+}
+.card2 .head h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.card2 .head p {
+	font-size: 14px;
+}
+.card2 .head .icon {
+	font-size: 20px;
+	color: var(--green);
+}
+.card2 .head .icon.down {
+	color: var(--red);
+}
+.card2{
+	display: block;
+	margin-top: 24px;
+	height: 10px;
+	width: 100%;
+	border-radius: 10px;
+	background: var(--grey);
+	/* overflow-y: hidden; */
+	position: relative;
+	margin-bottom: 4px;
+}
+.card2 .progress::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	/* background: var(--blue); */
+	width: var(--value);
+}
+.card2 .label {
+	font-size: 14px;
+	font-weight: 700;
+}
 
 
 

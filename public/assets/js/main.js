@@ -206,6 +206,11 @@ allProgress.forEach(item=> {
 	item.style.setProperty('--value', item.dataset.value)
 })
 
+const allProgress2 = document.querySelectorAll('main .card2 .progress');
+
+allProgress2.forEach(item=> {
+	item.style.setProperty('--value', item.dataset.value)
+})
 
 
 
