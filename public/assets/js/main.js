@@ -1,3 +1,51 @@
+console.log('hello');
+// XHR code
+const xhr = new XMLHttpRequest();
+xhr.open('GET', 'assets/js/data/content.json')
+xhr.send();
+
+xhr.addEventListener('load', function(){
+try{
+console.log(this.responseText);
+}
+catch(error){
+console.warn('Error: ', error)
+}
+})
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+//Fetch code
+
+
+fetch("assets/js/data/content.json")
+.then((response) => response.json())
+.then((data) => console.log({ data }));
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+
+//Async/await code
+
+
+async function anything() {
+    try {
+    const temp = await fetch("assets/js/data/content.json");
+    const data = await temp.json();
+    console.log({ data });
+    } catch (error) {
+    console.warn("Error: ", error);
+    }
+    }
+    
+    anything();
+
+
+
+
 // SIDEBAR DROPDOWN
 const allDropdown = document.querySelectorAll('#sidebar .side-dropdown');
 const sidebar = document.getElementById('sidebar');
@@ -195,3 +243,4 @@ tooltip: {
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+

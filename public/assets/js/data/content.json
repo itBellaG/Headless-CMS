@@ -1,46 +1,45 @@
 {
-    "siteName": "My Site",
-    "contactEmail": "amanda.lutz@senecacollege.ca",
-    "phone": "416-123-1234",
+    "siteName": "Dashboard Kit",
+    "contactEmail": "igiambagno@myseneca.ca",
+    "phone": "(647) 456-1716",
+    "url": "https://github.com/itBellaG/Headless-CMS",
     "mainnav": [
     
-    { "url": "/",
-    "text": "Home",
-    "linkId": "",
-    "linkClass": "",
-    "newTab": false
+    { 
+    "title": "OVERVIEW",
+    "author": "Isabella Giambagno",
+    "Unresolved": "60",
+    "Overdue": "16",
+    "Open": "43",
+    "On hold": "64"
     },
 
     {
-    "url": "/about.html",
-    "text": "About",
-    "linkId": "",
-    "linkClass": "",
-    "newTab": false
+    "title": "Today’s trends",
+    "date":"May 25th 2019, 09:41PM",
+    "author": "Isabella Giambagno",
+    "Resolved": "449",
+    "Received": "426",
+    "Average first response time": "33m",
+    "Average response time": "3h 8m",
+    "Resolution within SLA":"94%"
     },
 
     {
-    "url": "/blog.html",
-    "text": "Blog",
-    "linkId": "",
-    "linkClass": "",
-    "newTab": false
+    "title": "Unresolved tickets",
+    "author": "Isabella Giambagno",
+    "Waiting on Feature Request": "4238",
+    "Awaiting Customer Response": "1005",
+    "Awaiting Developer Fix": "914",
+    "Pending": "281"
     },
 
     {
-    "url": "https://www.shopify.com",
-    "text": "Shopping",
-    "linkId": "",
-    "linkClass": "",
-    "newTab": true
-    },
-
-    {
-    "url": "/contact.html",
-    "text": "Contact Us",
-    "linkId": "",
-    "linkClass": "",
-    "newTab": false
+    "title": "Tasks",
+    "author": "Isabella Giambagno",
+    "Finish ticket update": "URGENT",
+    "Create new ticket example": "NEW",
+    "Update ticket report": "DEFAULT"
     }
 
     ]
