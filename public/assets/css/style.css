@@ -447,7 +447,7 @@ nav .profile .profile-link a:hover {
 	position: absolute;
 	width: 771px;
 	top: 30px;
-	left: -400px;
+	left: 40px;
 	font-family: "Muli-Bold", Helvetica;
 	font-weight: 700;
 	color: var(--grayscale-black);
@@ -2550,7 +2550,7 @@ main .container{
 
 
 /* tablet */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 	.unresolved-tickets2 {
 		font-size: unset;
 	}
@@ -2559,6 +2559,65 @@ main .container{
 		left: 68px;
 		top: calc(50% - 18px);
 	}
+	#navhide{
+		display: contents;
+	}
+	.navbar{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+ .header-default{
+	position:relative;
+	display: flex;
+	flex-wrap: wrap;
+	
+} 
+
+.header-default .name {
+    width: auto;
+    top: 5px;
+    left: 75%;
+}
+.header-default .avatar-man-header {
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 65%;
+	margin: 0px;
+	position: absolute;
+}
+
+.header-default .divider-line {
+    width: 2px;
+    height: 32px;
+    top: 0px;
+    left: 63%;
+}
+
+.header-default .icon-notifications {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: 57%;
+}
+
+.header-default .icon-search {
+    width: 16px;
+    height: 16px;
+    top: 0px;
+    left: 50%;
+}
+
+	.label{
+	width: 771px;
+	top: 0px;
+	left: 8%;
+	}
+
 }
 
 
