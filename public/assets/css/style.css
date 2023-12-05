@@ -1884,14 +1884,7 @@ main .btn-send:hover {
 	box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
 	/* transition: all .2s ease-in-out; */
 }
-.info-data .card2:hover,
-.card2 .head h2:hover,
-.card2 .head .icon:hover,
-.card2 .head .icon.down:hover {
-	/* background: var(--blue); */
-	/* transition: all .2s ease-in-out; */
-	/* color: var(--light); */
-}
+
 .card2 .head {
 	display: flex;
 	justify-content:center;
