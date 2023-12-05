@@ -195,3 +195,25 @@ tooltip: {
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+
+
+
+
+
+console.log('hello');
+
+// XHR code
+
+
+const xhr = new XMLHttpRequest();
+xhr.open('GET', '../js/data/content.json')
+xhr.send();
+
+xhr.addEventListener('load', function(){
+try{
+console.log(this.responseText);
+}
+catch(error){
+console.warn('Error: ', error)
+}
+})
