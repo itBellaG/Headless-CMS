@@ -26,6 +26,25 @@
     },
 
     {
+        "title": "Agents",
+        "author": "Isabella Giambagno",
+        "Agent 1": "Tom Cruise",
+        "Agent 2": "Matt Damon",
+        "Agent 3": "Angelina Jolie",
+        "Agent 4": "Christina Bale"
+        },  
+        
+        {
+        "title": "Agents",
+        "author": "Isabella Giambagno",
+        "Agent 5": "Brittany Murphy",
+        "Agent 6": "Chris Evans",
+        "Agent 7": "Sam Smith",
+        "Agent 8": "Karen Smith"
+        },
+
+
+    {
     "title": "Unresolved tickets",
     "author": "Isabella Giambagno",
     "Waiting on Feature Request": "4238",

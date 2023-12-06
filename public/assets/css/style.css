@@ -1930,7 +1930,12 @@ main .btn-send:hover {
 
 
 
-
+.agentpic {	
+	position: relative;
+	width: 90%;
+	height: 90%;
+	top: -25px;
+	}
 
 
 
@@ -1965,6 +1970,12 @@ main .btn-send:hover {
 
 /*mobile*/
 @media screen and (max-width: 786px) {
+	.agentpic {	
+		position: relative;
+		width: 20%;
+		height: 20%;
+		top: -20px;
+		}
 	#content {
 		/* height: 100%; */
 		display: flex;
@@ -2665,6 +2676,13 @@ main .container{
 
 /* iPhone 12 PRO Dimensions*/
 @media screen and (max-width: 712px) {
+	.agentpic {	
+		position: relative;
+		width: 20%;
+		height: 20%;
+		align-items: center;
+		top: -20px;
+		}
 	/* #content {
 		position: relative;
 		width: calc(100% - 60px);
